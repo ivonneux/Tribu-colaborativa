@@ -1,0 +1,76 @@
+body {
+   
+    background-image: url("https://www.univision.com/proxy/api/cached/picture?href=https%3A%2F%2Fuvn-brightspot.s3.amazonaws.com%2Fassets%2Fvixes%2Fbtg%2Fcuriosidades.batanga.com%2Ffiles%2F20-fotos-y-datos-interesantes-sobre-el-Amazonas-que-tienes-que-conocer.jpg&width=0&height=0&ratio_width=1240&ratio_height=698&format=webp");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+.historia{
+    width: auto;
+    height: auto;
+    background-color: #ffffff6d;
+}
+.culturacostumbres{
+        width: auto;
+        height: auto;
+        background-color: #ffffff6d;
+}
+.imagenes{
+        width: auto;
+        height: auto;
+        background-color: #ffffff6d;
+}
+.aqui{
+            width: auto;
+            height: auto;
+            background-color: #ffffff6d;
+}
+#carrusel {
+    float:left;
+    width:600px;
+    overflow:hidden;
+    height:203px;
+    position:relative;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+ 
+#carrusel .left-arrow {
+    position:absolute;
+    left:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+ 
+#carrusel .right-arrow {
+    position:absolute;
+    right:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+ 
+.carrusel {
+    width:4000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+ 
+.carrusel>div {
+    float: left;
+    height: 203px;
+    margin-right: 5px;
+    width: 195px;
+    text-align:center;
+}
+ 
+.carrusel img {
+    cursor:pointer;
+}
+ 
+.product {
+    border:#CCCCCC 1px solid;
+}
